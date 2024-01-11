@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
+
+body
+{
+    background-color: #121212;
+    font-family: 'Inria Serif', serif;
+    color: wheat;
+}
+.container{
+    border: 2px solid wheat;
+    max-width: 390px;
+    margin: 0 auto;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+/*LOGOS CONTAINER*/
+.logo{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.logo-text{
+    color: wheat;
+    margin: 0.5em 0 0 0;
+}
+
+/*INPUTS CONTAINER*/
+.inputs{
+    margin: 2em 0 0 0;
+    border: 2px solid aquamarine;
+    width: 290px;
+}
+.sub-inputs{
+    display: flex;
+    width: 100%;
+    font-family: 'Inria Serif', serif;
+}
+.name{
+    width: 50%;
+    padding: 0.5em;
+    font-size: 1.25rem;
+    font-family: 'Inria Serif', serif;
+}
+.price{
+    width: 50%;
+    padding: 0.5em;
+    font-size: 1.25rem;
+    font-family: 'Inria Serif', serif;
+}
+.contact{
+    width: 48%;
+    padding: 0.5em;
+    font-size: 1.25rem;
+    font-family: 'Inria Serif', serif;
+}
+.image{
+    width: 50.2%;
+    padding: 0.5em;
+    font-size: 1.25rem;
+    font-family: 'Inria Serif', serif;
+    gap: 5px;
+}
+
+.textarea{
+    font-family: 'Inria Serif', serif;
+    height: 100px;
+    width: 98%;
+    font-size: 1.35rem;
+}
+.button{
+    font-family: 'Inria Serif', serif;
+    margin: 0.2em 0 0 0;
+    font-size: 1.5rem;
+    padding: 0.25em;
+    width: 100%;
+}
+
+/*MEGS CONTAINER*/
+.megs{
+    height: 145px;
+    width: 310px;
+    background-color: aquamarine;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.meg-logo{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-left: 0.5em;
+}
+.meg-inputs{
+    height: 120px;
+    width: 50%;
+    background-color: aqua;
+    font-size: 10px;
+    color: #121212;
+    margin-right: 1.5em;
+}
+.sub-meg-inputs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

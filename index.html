@@ -11,20 +11,23 @@
         <div class="logo"></div>
         <h1 class="logo-text">Megler</h1>
         <div class="inputs">
-            <textarea class="textarea"></textarea>
+            <textarea class="textarea" id="textarea"></textarea>
             <div class="sub-inputs">
                 <input type="text" placeholder="FROM/auth se take this" class="name"/>
                 <input type="text" placeholder="PRICE" class="price"/>
             </div>
             <div class="sub-inputs">
-                <input type="file" placeholder="IMG UPLOAD" class="image"/>
+                <div class="sub-sub-inputs">
+                    <label for="image" class="upload">UPLOAD</label>
+                    <input type="file" accept="image/jpeg, image/png, image/jpg" placeholder="IMG UPLOAD" class="image" id="image"/>
+                </div>
                 <input type="text" placeholder="CONTACT" class="contact"/>
             </div>
-            <button class="button">MEG</button>
+            <button class="button" id="button">MEG</button>
         </div>
         <h1>MEGS</h1>
         <div class="megs">
-            <div class="meg-logo"></div>
+            <img src="" id="pic" class="meg-img"/>
             <div class="meg-inputs">
                 <p>The description of the product that is displayed above.</p>
                 <div class="sub-meg-inputs">
@@ -38,6 +41,6 @@
             </div>
         </div>
     </div>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
 </body>
 </html>

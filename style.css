@@ -37,6 +37,7 @@ body
 }
 .sub-inputs{
     display: flex;
+    justify-content: space-between;
     width: 100%;
     font-family: 'Inria Serif', serif;
 }
@@ -53,7 +54,7 @@ body
     font-family: 'Inria Serif', serif;
 }
 .contact{
-    width: 48%;
+    width: 43%;
     padding: 0.5em;
     font-size: 1.25rem;
     font-family: 'Inria Serif', serif;
@@ -64,11 +65,27 @@ body
     font-size: 1.25rem;
     font-family: 'Inria Serif', serif;
     gap: 5px;
+    display: none;
+}
+.sub-sub-inputs{
+    border: 2px solid wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.upload{
+    padding: 0.5em;
+    font-size: 1.5rem;
+}
+.upload:hover{
+    color: yellow;
+    cursor: pointer;
 }
 
 .textarea{
     font-family: 'Inria Serif', serif;
-    height: 100px;
+    height: 60px;
     width: 98%;
     font-size: 1.35rem;
 }
@@ -82,20 +99,19 @@ body
 
 /*MEGS CONTAINER*/
 .megs{
-    height: 145px;
+    height: 345px;
     width: 310px;
     background-color: aquamarine;
     border-radius: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
 }
-.meg-logo{
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    background-color: aqua;
-    margin-left: 0.5em;
+.meg-img{
+   height: 140px;
+   width: 140px;
+   border: 2px solid wheat;
 }
 .meg-inputs{
     height: 120px;

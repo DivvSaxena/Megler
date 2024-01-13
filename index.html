@@ -13,33 +13,24 @@
         <div class="inputs">
             <textarea class="textarea" id="textarea"></textarea>
             <div class="sub-inputs">
-                <input type="text" placeholder="FROM/auth se take this" class="name"/>
-                <input type="text" placeholder="PRICE" class="price"/>
+                <input type="text" placeholder="FROM/auth se take this" class="name" id="owner-name"/>
+                <input type="text" placeholder="PRICE" class="price" id="price"/>
             </div>
             <div class="sub-inputs">
                 <div class="sub-sub-inputs">
                     <label for="image" class="upload">UPLOAD</label>
                     <input type="file" accept="image/jpeg, image/png, image/jpg" placeholder="IMG UPLOAD" class="image" id="image"/>
                 </div>
-                <input type="text" placeholder="CONTACT" class="contact"/>
+                <input type="text" placeholder="CONTACT" class="contact" id="contact"/>
             </div>
             <button class="button" id="button">MEG</button>
         </div>
         <h1>MEGS</h1>
-        <div class="megs">
-            <img src="" id="pic" class="meg-img"/>
-            <div class="meg-inputs">
-                <p>The description of the product that is displayed above.</p>
-                <div class="sub-meg-inputs">
-                    <h2>PRICE</h2>
-                    <div class="sub-final-meg-inputs">
-                        <h2>FROM</h2>
-                        <h3>CONTACT</h3>
-                    </div>
-                </div>
-                
-            </div>
+        <div class="megs-list" id="megs-list">
+            
+
         </div>
+        
     </div>
     <script src="index.js" type="module"></script>
 </body>

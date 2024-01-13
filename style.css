@@ -10,7 +10,6 @@ body
     border: 2px solid wheat;
     max-width: 390px;
     margin: 0 auto;
-    height: 800px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -98,8 +97,14 @@ body
 }
 
 /*MEGS CONTAINER*/
+
+.megs-list{
+    border: 2px solid wheat;
+}
+
+
 .megs{
-    height: 465px;
+    height: 365px;
     width: 310px;
     background-color: aquamarine;
     border-radius: 30px;
@@ -107,6 +112,7 @@ body
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    margin-top: 1em;
 }
 .meg-img{
    height: 240px;

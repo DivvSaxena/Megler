@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
     <div class="container">
-        <div class="logo"></div>
-        <h1 class="logo-text">Megler</h1>
+        <div class="header">
+            <div class="logo"></div>
+             <h1 class="logo-text">Megler</h1>
+        </div>
         <div class="inputs">
-            <textarea class="textarea" id="textarea"></textarea>
+            <textarea class="textarea" id="textarea" placeholder="Description of the product"></textarea>
             <div class="sub-inputs">
-                <input type="text" placeholder="FROM/auth se take this" class="name" id="owner-name"/>
+                <input type="text" placeholder="OWNER" class="name" id="owner-name"/>
                 <input type="text" placeholder="PRICE" class="price" id="price"/>
             </div>
             <div class="sub-inputs">
@@ -33,5 +39,10 @@
         
     </div>
     <script src="index.js" type="module"></script>
+    <!-- <script src="/node_modules/firebase/firebase-app.js"></script>
+    <script src="/node_modules/firebase/firebase-auth.js"></script>
+    <script src="/node_modules/firebase/firebase-storage.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-storage.js" type="module"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js" type="module"></script> -->
 </body>
 </html>

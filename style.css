@@ -8,7 +8,6 @@ body
 }
 
 .container{
-    border: 2px solid wheat;
     max-width: 390px;
     margin: 0 auto;
     display: flex;
@@ -46,6 +45,7 @@ body
 /*INPUTS CONTAINER*/
 .inputs{
     margin: 2em 0 0 0;
+    border: 1px solid aquamarine;
     width: 290px;
 }
 .sub-inputs{
